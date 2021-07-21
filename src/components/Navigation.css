@@ -6,23 +6,26 @@
   height: 4rem;
 }
 
-.navigation, .navigation a {
+.navigation, .navigation a, .navigation img {
   background-color: rgb(24, 29, 33);
+  transition: padding-top 500ms, background-color 500ms, height 500ms, color 500ms;
 }
 
 .navigation a:hover {
   color: rgb(255, 204, 0);
+  padding-top: 1.2em;
 }
 
 .navigation a:first-child {
-  font-weight: bolder;
-  font-size: xx-large;
   margin-right: auto;
-  padding-left: 1em;
-  font-style: italic;
+  padding: 0em 1em;
 }
 
-.navigation a {
+.navigation img {
+  width: 4rem;
+}
+
+.navigation a + a {
   padding: 0em 3em;
   font-size: 1.2rem;
   font-weight: 300;
