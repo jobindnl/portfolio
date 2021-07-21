@@ -5,6 +5,7 @@ import './Navigation.css'
 function Navigation() {
   return (
     <div className='navigation'>
+      <Link to='/' exact>JD</Link>
       <Link to='/' exact>Home</Link>
       <Link to='/projects'>Projects</Link>
       <Link to='/about'>About Me</Link>

@@ -10,6 +10,18 @@
   background-color: rgb(24, 29, 33);
 }
 
+.navigation a:hover {
+  color: rgb(255, 204, 0);
+}
+
+.navigation a:first-child {
+  font-weight: bolder;
+  font-size: xx-large;
+  margin-right: auto;
+  padding-left: 1em;
+  font-style: italic;
+}
+
 .navigation a {
   padding: 0em 3em;
   font-size: 1.2rem;
