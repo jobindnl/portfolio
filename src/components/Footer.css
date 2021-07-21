@@ -1,0 +1,16 @@
+.footer img {
+  height: 3rem;
+}
+
+.footer {
+  display: inline-flex;
+  width: 100%; 
+  justify-content: space-between;
+  padding: 2rem;
+  /* background-color: rgb(29, 36, 40); */
+  border-radius: .6em;
+}
+
+.footer * {
+  /* background-color: rgb(29, 36, 40); */
+}

@@ -1,6 +1,13 @@
 .app_container {
   display: flex;
-  margin: 8rem auto;
+  flex-wrap: wrap;
+  margin: 8rem auto 3rem auto;
   width: 80%;
   justify-content: center;
+}
+
+
+.footer_container {
+  margin: 0em auto;
+  width: 80%;
 }
