@@ -1,0 +1,15 @@
+.profile_image {
+  width: 13rem;
+  border: 0.2rem solid rgb(255, 204, 0);
+}
+
+.profile {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile_code {
+  font-size: larger;
+  color: rgb(22, 143, 235);
+}
