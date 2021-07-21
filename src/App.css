@@ -1,0 +1,6 @@
+.app_container {
+  display: flex;
+  margin: 8rem auto;
+  width: 80%;
+  justify-content: center;
+}

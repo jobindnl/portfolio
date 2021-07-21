@@ -6,9 +6,8 @@ function Navigation() {
   return (
     <div className='navigation'>
       <Link to='/' exact><img src="logo.png" alt="logo JD" /></Link>
-      <Link to='/' exact>Home</Link>
+      <Link to='/'>About Me</Link>
       <Link to='/projects'>Projects</Link>
-      <Link to='/about'>About Me</Link>
       <Link to='/contact'>Contact Me</Link>
     </div>
   )

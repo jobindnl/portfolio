@@ -3,6 +3,10 @@
   border: 0.2rem solid rgb(109, 174, 244);
 }
 
+.profile > h4 {
+  margin: 1em 0em;
+}
+
 .profile {
   display: inline-flex;
   margin: 0.8rem;
