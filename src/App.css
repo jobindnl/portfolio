@@ -1,3 +1,8 @@
+:root {
+  --yellow :rgb(255, 204, 0); 
+  --dark-blue :rgb(29, 36, 40);
+}
+
 .app_container {
   display: flex;
   flex-wrap: wrap;

@@ -1,0 +1,20 @@
+
+.contact form *{
+  display: flex;
+  flex-direction: column;
+}
+
+.contact form input:last-child{
+  background-color: var(--yellow);
+  border: 0rem solid transparent;
+  border-radius: 2rem;
+  padding: .3em .8em;
+  font-size: 1.3rem;
+  color: black;
+  transition: transform 100ms;
+}
+
+.contact form input:last-child:hover {
+  transform: scale(1.08);
+}
+
