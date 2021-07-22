@@ -10,7 +10,7 @@ function Profile() {
       src="headshot_professional.png" 
       alt="profile image" 
       roundedCircle />
-      <h4>Jobin Daniel</h4>
+      <h1>Jobin Daniel</h1>
       <code className='profile_code'>SOFTWARE ENGINEER</code>
     </div>
   )
