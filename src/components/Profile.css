@@ -5,6 +5,7 @@
 
 .profile > h4 {
   margin: 1em 0em;
+  letter-spacing: .04rem;
 }
 
 .profile {
@@ -15,6 +16,7 @@
 }
 
 .profile_code {
+  letter-spacing: .04rem;
   font-size: larger;
   color: rgb(255, 204, 0);
 }
