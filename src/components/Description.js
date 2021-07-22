@@ -5,12 +5,22 @@ function Description() {
   return (
     <div className='description'>
       <p>
-        Hello! I am aspiring to become a Web Developer. 
+        Hello! I am aspiring to become a Web Developer.
         I have worked with many technologies such as
-        <span className='javascript'> Javascript</span>, 
-        <span className='html'> HTML</span>, <span className='css'> CSS</span>, 
+        <span className='javascript'> Javascript</span>,
+        <span className='html'> HTML</span>, <span className='css'> CSS</span>,
         and also the MERN stack.
       </p>
+      <div className='description_images'>
+        <a target="_blank" rel="noopener noreferrer" 
+          href="https://github.com/jobindnl">
+          <img src="github.png" alt="github" />
+        </a>
+        <a target="_blank" rel="noopener noreferrer" 
+          href="https://www.linkedin.com/in/jobindnl/">
+          <img src="linkedin.png" alt="linkedin" />
+        </a>
+      </div>
     </div>
   )
 }

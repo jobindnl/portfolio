@@ -31,10 +31,11 @@
   padding: .3em .8em;
   font-size: 1.3rem;
   color: black;
-  transition: transform 100ms;
+  transition: transform 300ms, border 300ms;
 }
 
 .contact form input:last-child:hover {
   transform: scale(1.08);
+  border: .2rem solid white;
 }
 
