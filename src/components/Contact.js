@@ -1,13 +1,14 @@
 import React from 'react'
 import emailjs from 'emailjs-com'
 import './Contact.css'
-require('dotenv').config()
 
 function Contact() {
 
   const handleSubmit = (event) => {
     event.preventDefault()
-    emailjs.sendForm('service_vccjnzt', 'template_oca7lss', event.target, "user_OLNXyEU1sJavhPEckBQ1A")
+    emailjs.sendForm(process.env.REACT_APP_SERVICE_ID,
+      process.env.REACT_APP_TEMPLATE_ID,
+      event.target, process.env.REACT_APP_USER_ID)
       .then((response) => {
         console.log('SUCCESS!', response.status, response.text)
       }, (error) => {
