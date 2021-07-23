@@ -11,7 +11,7 @@ function Description() {
           I have worked with many technologies such as
           <span className='javascript'> Javascript</span>,
           <span className='html'> HTML</span>, <span className='css'> CSS</span>,
-          and also the MERN stack.
+          Bootstrap, and also the MERN stack.
         </p>
       </Col>
       <Row className='description_images d-inline-flex flex-row'>
