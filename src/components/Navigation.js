@@ -5,7 +5,7 @@ import './Navigation.css'
 function Navigation() {
   return (
     <div className='navigation'>
-      <Link to='/'><img src="logo.png" alt="logo JD" /></Link>
+      <Link to='/'><img src={process.env.PUBLIC_URL + "/logo.png"} alt="logo JD" /></Link>
       <Link to='/'>About Me</Link>
       <Link to='/projects'>Projects</Link>
       <Link to='/contact'>Contact Me</Link>
