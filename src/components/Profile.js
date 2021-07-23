@@ -1,14 +1,13 @@
 import React from 'react'
 import './Profile.css'
 import { Image } from 'react-bootstrap'
-import profilePic from './headshot_professional.png'
 
 function Profile() {
   return (
     <div className='profile'>
       <Image 
       className='profile_image' 
-      src={profilePic} 
+      src={process.env.PUBLIC_URL + '/headshot_professional.png'} 
       alt="profile image" 
       roundedCircle />
       <h1>Jobin Daniel</h1>

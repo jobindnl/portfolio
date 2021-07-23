@@ -12,13 +12,13 @@ function Description() {
         and also the MERN stack.
       </p>
       <div className='description_images'>
-        <a target="_blank" rel="noopener noreferrer" 
+        <a target="_blank" rel="noopener noreferrer"
           href="https://github.com/jobindnl">
-          <img src="github.png" alt="github" />
+          <img src={process.env.PUBLIC_URL + '/github.png'} alt="github" />
         </a>
-        <a target="_blank" rel="noopener noreferrer" 
+        <a target="_blank" rel="noopener noreferrer"
           href="https://www.linkedin.com/in/jobindnl/">
-          <img src="linkedin.png" alt="linkedin" />
+          <img src={process.env.PUBLIC_URL + '/linkedin.png'} alt="linkedin" />
         </a>
       </div>
     </div>
