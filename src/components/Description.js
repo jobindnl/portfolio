@@ -5,7 +5,7 @@ import './Description.css'
 function Description() {
   return (
     <Row className='description'>
-      <Col>
+      <Col className='mt-5'>
         <p>
           Hello! I am aspiring to become a Web Developer.
           I have worked with many technologies such as
