@@ -4,6 +4,7 @@ import Description from './components/Description'
 import Footer from './components/Footer'
 import { Switch, Route } from 'react-router-dom'
 import Contact from './components/Contact'
+import { Container, Row, Col } from 'react-bootstrap'
 import './App.css'
 
 function App() {
@@ -12,10 +13,16 @@ function App() {
       <Navigation />
       <Switch>
         <Route exact path='/'>
-          <div className='app_container'>
-            <Profile />
-            <Description />
-          </div>
+          <Container>
+            <Row className='app_container mt-5 align-items-center'>
+              <Col xs={12} lg={6} className='d-inline-flex mt-5 justify-content-center'>
+                <Profile />
+              </Col>
+              <Col>
+                <Description />
+              </Col>
+            </Row>
+          </Container>
           <div className="footer_container">
             <Footer />
           </div>
