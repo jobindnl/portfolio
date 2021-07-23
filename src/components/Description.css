@@ -9,11 +9,11 @@
   font-size: 1.3em;
 }
 
-.description_images {
+/* .description_images { */
   /* display: flex; */
   /* justify-content: space-between; */
   /* width: 4rem; */
-}
+/* } */
 
 .description_images img {
   height: 1.8rem;
