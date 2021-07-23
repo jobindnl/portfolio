@@ -7,7 +7,7 @@ function Profile() {
     <div className='profile'>
       <Image 
       className='profile_image' 
-      src="headshot_professional.png" 
+      src="./headshot_professional.png" 
       alt="profile image" 
       roundedCircle />
       <h1>Jobin Daniel</h1>
