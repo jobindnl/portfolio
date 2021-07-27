@@ -34,17 +34,22 @@
   text-decoration: none;
 } */
 
-.navbar-nav a{
+.navbar {
+  border-bottom: .1rem solid purple;
+}
+
+.navbar-nav a {
   text-decoration: none;
   color: white;
   text-transform: uppercase;
   font-weight: 300;
   font-size: 1.1rem;
-  /* padding: 0em 5em; */
+  padding: 0em 1em;
   height: 4rem;
   display: flex;
   align-items: center;
-  transition: color 300ms, padding 300ms, border 300ms;
+  justify-content: center;
+  transition: color 300ms, padding 300ms, border 300ms, color 300ms, background-color 300ms, border-radius 300ms;
 }
 
 .navbar-nav {
@@ -54,7 +59,8 @@
 }
 
 .navbar-nav a:hover {
-  color: rgb(255, 204, 0);
   padding-top: 1em;
-  border-bottom: .1rem solid var(--yellow);
+  color: black;
+  border-radius: .2rem;
+  background-color: rgb(255, 204, 0);
 }

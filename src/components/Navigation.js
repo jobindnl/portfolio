@@ -12,15 +12,9 @@ function Navigation() {
             <img width='80px' src={process.env.PUBLIC_URL + '/logo.png'} alt="site logo" />
           </Navbar.Brand>
           <Nav>
-            {/* <Nav.Link> */}
-              <Link to='/'>About</Link>
-            {/* </Nav.Link> */}
-            {/* <Nav.Link> */}
-              <Link to='/projects'>Projects</Link>
-            {/* </Nav.Link> */}
-            {/* <Nav.Link> */}
-              <Link to='contact'>Contact me</Link>
-            {/* </Nav.Link> */}
+            <Link to='/'>About</Link>
+            <Link to='/projects'>Projects</Link>
+            <Link to='contact'>Contact me</Link>
           </Nav>
         </Container>
       </Navbar>
