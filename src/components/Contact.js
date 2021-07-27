@@ -24,7 +24,7 @@ function Contact() {
         <Row className='justify-content-center'>
           <h1>Contact Me!</h1>
         </Row>
-        <Row>
+        <Row xs={12}>
           <form onSubmit={handleSubmit}>
             <input placeholder='Name' type="text" name='name' required />
             <input placeholder='Email' type="email" name='email' required />
