@@ -1,4 +1,4 @@
-.navigation {
+/* .navigation {
   display: flex;
   justify-content: flex-end;
   background-color: rgb(29, 36, 40);
@@ -32,4 +32,29 @@
   text-transform: uppercase;
   color: rgb(203, 203, 203);
   text-decoration: none;
+} */
+
+.navbar-nav a{
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 1.1rem;
+  /* padding: 0em 5em; */
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  transition: color 300ms, padding 300ms, border 300ms;
+}
+
+.navbar-nav {
+  width: 100%;
+  height: 100%;
+  justify-content: space-around;
+}
+
+.navbar-nav a:hover {
+  color: rgb(255, 204, 0);
+  padding-top: 1em;
+  border-bottom: .1rem solid var(--yellow);
 }

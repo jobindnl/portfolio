@@ -1,14 +1,29 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import { Nav, Container, Navbar } from 'react-bootstrap'
 import './Navigation.css'
 
 function Navigation() {
   return (
-    <div className='navigation'>
-      <Link to='/'><img src={process.env.PUBLIC_URL + "/logo.png"} alt="logo JD" /></Link>
-      <Link to='/'>About Me</Link>
-      <Link to='/projects'>Projects</Link>
-      <Link to='/contact'>Contact Me</Link>
+    <div>
+      <Navbar expand='sm'>
+        <Container>
+          <Navbar.Brand>
+            <img width='80px' src={process.env.PUBLIC_URL + '/logo.png'} alt="site logo" />
+          </Navbar.Brand>
+          <Nav>
+            {/* <Nav.Link> */}
+              <Link to='/'>About</Link>
+            {/* </Nav.Link> */}
+            {/* <Nav.Link> */}
+              <Link to='/projects'>Projects</Link>
+            {/* </Nav.Link> */}
+            {/* <Nav.Link> */}
+              <Link to='contact'>Contact me</Link>
+            {/* </Nav.Link> */}
+          </Nav>
+        </Container>
+      </Navbar>
     </div>
   )
 }
