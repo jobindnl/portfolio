@@ -1,5 +1,6 @@
 import React from 'react'
 import emailjs from 'emailjs-com'
+import { Container, Row, Col } from 'react-bootstrap'
 import './Contact.css'
 
 function Contact() {
@@ -19,13 +20,22 @@ function Contact() {
 
   return (
     <div className='contact'>
-      <h1>Contact Me!</h1>
-      <form onSubmit={handleSubmit}>
-        <input placeholder='Name' type="text" name='name' required />
-        <input placeholder='Email' type="email" name='email' required />
-        <textarea placeholder='Message' type="textarea" name='message' required />
-        <input type="submit" />
-      </form>
+      <Container>
+        <Row className='justify-content-center'>
+          <h1>Contact Me!</h1>
+        </Row>
+        <Row>
+          <form onSubmit={handleSubmit}>
+            <input placeholder='Name' type="text" name='name' required />
+            <input placeholder='Email' type="email" name='email' required />
+            <textarea placeholder='Message' type="textarea" name='message' required />
+            <Row className='justify-content-center'>
+              <input type="submit" />
+            </Row>
+          </form>
+        </Row>
+
+      </Container>
     </div>
   )
 }
