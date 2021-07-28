@@ -5,3 +5,13 @@
   flex-wrap: wrap;
   padding: 2em;
 }
+
+.card-text {
+  color: rgb(203, 203, 203);
+  font-weight: 300;
+}
+
+.card-title.h5 {
+  font-size: 1.5rem;
+}
+
