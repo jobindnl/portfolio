@@ -49,7 +49,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: color 300ms, padding 300ms, border 300ms, color 300ms, background-color 300ms, border-radius 300ms;
+  transition: color 200ms, padding 200ms, transform 200ms, border 200ms, color 200ms, background-color 200ms, border-radius 200ms;
 }
 
 .navbar-nav {

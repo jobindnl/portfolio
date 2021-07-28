@@ -13,7 +13,7 @@ function Navigation() {
           </Navbar.Brand>
           <Nav>
             <Link to='/'>About</Link>
-            {/* <Link to='/projects'>Projects</Link> */}
+            <Link to='/projects'>Projects</Link>
             <Link to='contact'>Contact me</Link>
           </Nav>
         </Container>

@@ -6,6 +6,7 @@ import { Switch, Route } from 'react-router-dom'
 import Contact from './components/Contact'
 import { Container, Row, Col } from 'react-bootstrap'
 import './App.css'
+import Project from './components/Project'
 
 function App() {
   return (
@@ -30,6 +31,16 @@ function App() {
         <Route path='/contact'>
           <div className="contact_container">
             <Contact />
+          </div>
+        </Route>
+        <Route path='/projects'>
+          <div className='projects_container'>
+            <Project
+              title='Music Production'
+              img='music_website.png'
+              desc='Starter website built with HTML, CSS, & Javascript'
+              link='https://jobindnl.github.io/MusicProduction/'
+            />
           </div>
         </Route>
       </Switch>
