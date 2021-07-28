@@ -36,6 +36,12 @@ function App() {
         <Route path='/projects'>
           <div className='projects_container'>
             <Project
+              title='Connect 4'
+              img='connect4.png'
+              desc='Group Collaboration project where I took on the lead developer role to create a Connect 4 game'
+              link='https://jobindnl.github.io/connect4/'
+            />
+            <Project
               title='Music Production'
               img='music_website.png'
               desc='Starter website built with HTML, CSS, & Javascript'
