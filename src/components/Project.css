@@ -6,6 +6,10 @@
   padding: 2em;
 }
 
+.projects_container .card {
+  margin: 1em;
+}
+
 .card-text {
   color: rgb(203, 203, 203);
   font-weight: 300;
