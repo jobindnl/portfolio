@@ -5,20 +5,21 @@ import './Navigation.css'
 
 function Navigation() {
   return (
-    <div>
-      <Navbar expand='sm'>
+      <Navbar expand='lg'>
         <Container>
           <Navbar.Brand>
             <img width='80px' src={process.env.PUBLIC_URL + '/logo.png'} alt="site logo" />
           </Navbar.Brand>
-          <Nav>
-            <Link to='/'>About</Link>
-            <Link to='/projects'>Projects</Link>
-            <Link to='contact'>Contact me</Link>
-          </Nav>
+          <Navbar.Toggle aria-controls="basic-navbar-nav" />
+          <Navbar.Collapse id="basic-navbar-nav">
+            <Nav>
+              <Link to='/'>About</Link>
+              <Link to='/projects'>Projects</Link>
+              <Link to='contact'>Contact me</Link>
+            </Nav>
+          </Navbar.Collapse>
         </Container>
       </Navbar>
-    </div>
   )
 }
 
