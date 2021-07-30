@@ -18,7 +18,7 @@ function App() {
       setLoading(loading => {
         return !loading
       })
-    }, 2300)
+    }, 3000)
   }, [])
   return (
     loading
