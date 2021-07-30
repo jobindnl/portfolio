@@ -1,39 +1,3 @@
-/* .navigation {
-  display: flex;
-  justify-content: flex-end;
-  background-color: rgb(29, 36, 40);
-  align-items: center;
-  height: 4rem;
-}
-
-.navigation, .navigation a, .navigation img {
-  background-color: rgb(24, 29, 33);
-  transition: padding-top 500ms, background-color 500ms, height 500ms, color 500ms;
-}
-
-.navigation a:hover {
-  color: rgb(255, 204, 0);
-  padding-top: 1.2em;
-}
-
-.navigation a:first-child {
-  margin-right: auto;
-  padding: 0em 1em;
-}
-
-.navigation img {
-  width: 4rem;
-}
-
-.navigation a + a {
-  padding: 0em 3em;
-  font-size: 1.2rem;
-  font-weight: 300;
-  text-transform: uppercase;
-  color: rgb(203, 203, 203);
-  text-decoration: none;
-} */
-
 .navbar {
   border-bottom: .1rem solid purple;
 }
