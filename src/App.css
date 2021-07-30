@@ -17,3 +17,11 @@
   margin: 0em auto;
   width: 80%;
 }
+
+/* spinner class */
+.css-1xdhyk6 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}

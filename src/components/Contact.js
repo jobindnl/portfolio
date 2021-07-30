@@ -1,6 +1,6 @@
 import React from 'react'
 import emailjs from 'emailjs-com'
-import { Container, Row, Col } from 'react-bootstrap'
+import { Container, Row } from 'react-bootstrap'
 import './Contact.css'
 
 function Contact() {
