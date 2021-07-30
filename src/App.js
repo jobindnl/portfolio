@@ -65,6 +65,12 @@ function App() {
                 desc='Starter website built with HTML, CSS, & Javascript'
                 link='https://jobindnl.github.io/MusicProduction/'
               />
+              <Project
+                title='Photo Wall'
+                img='photoWall.png'
+                desc='Simple website that fetches pictures using an API'
+                link='https://jobindnl.github.io/photoWall/'
+              />
             </div>
           </Route>
         </Switch>
