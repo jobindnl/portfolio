@@ -9,9 +9,9 @@ function Footer() {
       <Container className='m-0'>
         <Row className='footer-icons pt-5 pb-5'>
           <Col className='text-center p-0 p-md-0 d-inline-flex justify-content-around'>
-            <img src={process.env.PUBLIC_URL + '/javascript.png'} alt='javascript' />
-            <img src={process.env.PUBLIC_URL + '/html.png'} alt='html' />
-            <img src={process.env.PUBLIC_URL + '/css.png'} alt='css' />
+            <img src={process.env.PUBLIC_URL + '/javascript.svg'} alt='javascript' />
+            <img src={process.env.PUBLIC_URL + '/html.svg'} alt='html' />
+            <img src={process.env.PUBLIC_URL + '/css.svg'} alt='css' />
             <img src={process.env.PUBLIC_URL + '/bootstrap.png'} alt='bootstrap' />
           </Col>
           <Col className='text-center p-0 p-md-0 d-inline-flex justify-content-around'>
