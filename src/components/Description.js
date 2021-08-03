@@ -7,11 +7,11 @@ function Description() {
     <Row className='description'>
       <Col className='mt-5'>
         <p>
-          Hello! I am aspiring to become a Web Developer.
+          Hello! I am an aspiring Web Developer.
           I have worked with many technologies such as
-          <span className='javascript'> Javascript</span>,
-          <span className='html'> HTML</span>, <span className='css'> CSS</span>,
-          Bootstrap, and also the MERN stack.
+          Javascript, HTML, CSS, Bootstrap, and also the MERN stack.
+          I enjoy solving problems, collaborating on projects, and watching
+          my code come to life on a webpage. 
         </p>
       </Col>
       <Row className='description_images d-inline-flex flex-row'>
