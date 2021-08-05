@@ -6,7 +6,7 @@ function Project({ title, desc, img, link }) {
   return (
     <div>
       <Card border='secondary' style={{ width: '18rem' }}>
-        <Card.Img variant="top" src={process.env.PUBLIC_URL + `/${img}`} />
+        <Card.Img variant="top" src={img} />
         <Card.Body>
           <Card.Title>{title}</Card.Title>
           <Card.Text>

@@ -1,5 +1,13 @@
 import React from 'react'
 import { Container, Row, Col } from 'react-bootstrap'
+import mongo from '../assets/mongo.png'
+import express from '../assets/express.png'
+import react from '../assets/react.png'
+import node from '../assets/node.png'
+import javascript from '../assets/javascript.svg'
+import html from '../assets/html.svg'
+import css from '../assets/css.svg'
+import bootstrap from '../assets/bootstrap.png'
 import './Footer.css'
 
 function Footer() {
@@ -9,16 +17,16 @@ function Footer() {
       <Container className='m-0'>
         <Row className='footer-icons pt-5 pb-5'>
           <Col className='text-center p-0 p-md-0 d-inline-flex justify-content-around'>
-            <img src={process.env.PUBLIC_URL + '/javascript.svg'} alt='javascript' />
-            <img src={process.env.PUBLIC_URL + '/html.svg'} alt='html' />
-            <img src={process.env.PUBLIC_URL + '/css.svg'} alt='css' />
-            <img src={process.env.PUBLIC_URL + '/bootstrap.png'} alt='bootstrap' />
+            <img src={javascript} alt='javascript' />
+            <img src={html} alt='html' />
+            <img src={css} alt='css' />
+            <img src={bootstrap} alt='bootstrap' />
           </Col>
           <Col className='text-center p-0 p-md-0 d-inline-flex justify-content-around'>
-            <img src={process.env.PUBLIC_URL + '/mongo.png'} alt='mongo' />
-            <img src={process.env.PUBLIC_URL + '/express.png'} alt='express' />
-            <img src={process.env.PUBLIC_URL + '/react.png'} alt='react' />
-            <img src={process.env.PUBLIC_URL + '/node.png'} alt='node' />
+            <img src={mongo} alt='mongo' />
+            <img src={express} alt='express' />
+            <img src={react} alt='react' />
+            <img src={node} alt='node' />
           </Col>
         </Row>
       </Container>

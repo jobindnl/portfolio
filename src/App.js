@@ -8,6 +8,9 @@ import Description from './components/Description'
 import Footer from './components/Footer'
 import Contact from './components/Contact'
 import Project from './components/Project'
+import music from './assets/music_website.jpg'
+import connect4 from './assets/connect4.jpg'
+import photoWall from './assets/photoWall.jpg'
 import './App.css'
 
 function App() {
@@ -55,19 +58,19 @@ function App() {
             <div className='projects_container'>
               <Project
                 title='Connect 4'
-                img='connect4.jpg'
+                img={connect4}
                 desc='Group Collaboration project where I took on the lead developer role to create a Connect 4 game'
                 link='https://jobindnl.github.io/connect4/'
               />
               <Project
                 title='Music Production'
-                img='music_website.jpg'
+                img={music}
                 desc='Starter website built with HTML, CSS, & Javascript'
                 link='https://jobindnl.github.io/MusicProduction/'
               />
               <Project
                 title='Photo Wall'
-                img='photoWall.jpg'
+                img={photoWall}
                 desc='Simple website that fetches pictures using an API'
                 link='https://jobindnl.github.io/photoWall/'
               />

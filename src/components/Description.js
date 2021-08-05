@@ -1,5 +1,7 @@
 import React from 'react'
 import { Row, Col } from 'react-bootstrap'
+import github from '../assets/github.png'
+import linkedin from '../assets/linkedin.png'
 import './Description.css'
 
 function Description() {
@@ -18,13 +20,13 @@ function Description() {
         <Col xs={2}>
           <a target="_blank" rel="noopener noreferrer"
             href="https://github.com/jobindnl">
-            <img src={process.env.PUBLIC_URL + '/github.png'} alt="github" />
+            <img src={github} alt="github" />
           </a>
         </Col>
         <Col xs={2}>
           <a target="_blank" rel="noopener noreferrer"
             href="https://www.linkedin.com/in/jobindnl/">
-            <img src={process.env.PUBLIC_URL + '/linkedin.png'} alt="linkedin" />
+            <img src={linkedin} alt="linkedin" />
           </a>
         </Col>
       </Row>

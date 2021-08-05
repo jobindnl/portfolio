@@ -1,5 +1,6 @@
 import React from 'react'
 import './Profile.css'
+import headshot from '../assets/headshot_professional.jpg'
 import { Image, Col, Row } from 'react-bootstrap'
 
 function Profile() {
@@ -8,7 +9,7 @@ function Profile() {
       <Col>
         <Image
           className='profile_image'
-          src={process.env.PUBLIC_URL + '/headshot_professional.jpg'}
+          src={headshot}
           alt="profile image"
           roundedCircle />
       </Col>
