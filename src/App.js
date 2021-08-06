@@ -11,6 +11,7 @@ import Project from './components/Project'
 import music from './assets/music_website.jpg'
 import connect4 from './assets/connect4.jpg'
 import photoWall from './assets/photoWall.jpg'
+import adviceGenerator from './assets/adviceGenerator.jpg'
 import './App.css'
 
 function App() {
@@ -73,6 +74,12 @@ function App() {
                 img={photoWall}
                 desc='Simple website that fetches pictures using an API'
                 link='https://jobindnl.github.io/photoWall/'
+              />
+              <Project
+                title='Advice Generator'
+                img={adviceGenerator}
+                desc='Consumes external API to display random advice'
+                link='https://jobindnl.github.io/advice-api/'
               />
             </div>
           </Route>
