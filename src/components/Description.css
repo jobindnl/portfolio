@@ -9,6 +9,10 @@
   font-size: 1.3em;
 }
 
+.description.row p {
+  color: var(--text-grey)
+}
+
 /* .description_images { */
   /* display: flex; */
   /* justify-content: space-between; */

@@ -1,12 +1,14 @@
 :root {
   --yellow :rgb(255, 204, 0); 
   --dark-blue :rgb(29, 36, 40);
+  --text-grey: rgb(203, 203, 203);
 }
 
 .app_container {
   margin: 8rem auto 3rem auto;
 }
 
+/* image cards on project section */
 .projects_container .card-img-top {
   width: 17.875rem;
   height: 10.0625rem;
