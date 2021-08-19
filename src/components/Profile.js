@@ -11,7 +11,8 @@ function Profile() {
           className='profile_image'
           src={headshot}
           alt="profile image"
-          roundedCircle />
+          roundedCircle 
+        />
       </Col>
       <Col>
         <h1>Jobin Daniel</h1>

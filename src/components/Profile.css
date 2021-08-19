@@ -1,5 +1,6 @@
 .profile_image {
   width: 13rem;
+  height: 13rem;
   border: 0.1rem solid var(--yellow)
 }
 
