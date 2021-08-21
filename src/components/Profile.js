@@ -5,7 +5,7 @@ import { Image, Col, Row } from 'react-bootstrap'
 
 function Profile() {
   return (
-    <Row className='profile d-inline-flex flex-column'>
+    <Row name='profileID' className='profile d-inline-flex flex-column'>
       <Col>
         <Image
           className='profile_image'
