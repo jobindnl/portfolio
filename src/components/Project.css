@@ -20,6 +20,11 @@
   color: var(--text-grey);
 }
 
+.button-link.btn {
+  border-radius: 1rem;
+  border: 0.09em solid white;
+}
+
 .additional_details {
   color: var(--text-grey);
   font-weight: 300;

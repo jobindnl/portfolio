@@ -50,9 +50,9 @@ function App() {
         <Project
           title='Connect 4'
           img={connect4}
-          desc='Collaborated with others to make a Connect 4 game'
+          sourceCode='https://github.com/jobindnl/connect4'
           link='https://jobindnl.github.io/connect4/'
-          additionalDetails='This was an application that built from the ground up
+          desc='This was an application that built from the ground up
                 in a team environment. I took on the lead developer role and delegated tasks among
                 the rest of the team and took an active role in coding the functionality of the 
                 game. This project took a lot of planning and coordination, however we were able to 
@@ -62,28 +62,25 @@ function App() {
         <Project
           title='Music Production'
           img={music}
-          desc='Starter website built with HTML, CSS, & Javascript'
+          sourceCode='https://github.com/jobindnl/MusicProduction'
           link='https://jobindnl.github.io/MusicProduction/'
-          additionalDetails='This site was made with the vision to show basic information
+          desc='Made with the vision to show basic information
                 about music production and the different tools that come with the program called
                 Logic Pro X.'
         />
         <Project
           title='Photo Wall'
           img={photoWall}
-          desc='Simple website that fetches pictures using an API'
+          sourceCode='https://github.com/jobindnl/photoWall'
           link='https://jobindnl.github.io/photoWall/'
-          additionalDetails='This was an application that built from the ground up
-                in a team environment. I took on the lead developer role and delegated tasks among
-                the rest of the team and took an active role in coding the functionality of the 
-                game.'
+          desc='Uses an API to fetch photos from a third party website.'
         />
         <Project
           title='Advice Generator'
           img={adviceGenerator}
-          desc='Consumes external API to display random advice'
+          sourceCode='https://github.com/jobindnl/advice-api'
           link='https://jobindnl.github.io/advice-api/'
-          additionalDetails='This was an application that built from the ground up
+          desc='This was an application that built from the ground up
                 in a team environment. I took on the lead developer role and delegated tasks among
                 the rest of the team and took an active role in coding the functionality of the 
                 game.'

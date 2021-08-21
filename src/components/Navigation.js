@@ -6,7 +6,7 @@ import './Navigation.css'
 
 function Navigation() {
   return (
-      <Navbar expand='lg'>
+      <Navbar expand='lg' fixed='top'>
         <Container>
           <Navbar.Brand>
             <img width='60px' src={logo} alt="site logo" />
