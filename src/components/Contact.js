@@ -19,24 +19,21 @@ function Contact() {
   }
 
   return (
-    <div className='contact'>
-      <Container>
-        <Row className='justify-content-center'>
-          <h1>Contact Me!</h1>
-        </Row>
-        <Row xs={12}>
-          <form onSubmit={handleSubmit}>
-            <input placeholder='Name' type="text" name='name' required />
-            <input placeholder='Email' type="email" name='email' required />
-            <textarea placeholder='Message' type="textarea" name='message' required />
-            <Row className='justify-content-center'>
-              <input type="submit" />
-            </Row>
-          </form>
-        </Row>
-
-      </Container>
-    </div>
+    <Container name='contactID' className='contact'>
+      <Row className='justify-content-center'>
+        <h1>Contact Me!</h1>
+      </Row>
+      <Row xs={12}>
+        <form onSubmit={handleSubmit}>
+          <input placeholder='Name' type="text" name='name' required />
+          <input placeholder='Email' type="email" name='email' required />
+          <textarea placeholder='Message' type="textarea" name='message' required />
+          <Row className='justify-content-center'>
+            <input type="submit" />
+          </Row>
+        </form>
+      </Row>
+    </Container>
   )
 }
 
