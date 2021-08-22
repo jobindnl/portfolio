@@ -1,7 +1,11 @@
 .contact h1 {
-  margin: 2em;
+  margin-top: 2.5em;
   text-align: center;
-
+  display: inline;
+  background: linear-gradient(to right, var(--yellow), var(--purple));
+  background-clip: text;
+  font-size: 6vmax;
+  color: transparent;
 }
 
 .contact {

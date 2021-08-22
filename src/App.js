@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react'
 import { Switch, Route } from 'react-router-dom'
 import { Container, Row, Col } from 'react-bootstrap'
 import { SyncLoader } from 'react-spinners'
+import ProjectIntro from './components/ProjectIntro'
 import Profile from './components/Profile'
 import Navigation from './components/Navigation'
 import Description from './components/Description'
@@ -22,13 +23,13 @@ function App() {
       setLoading(loading => {
         return !loading
       })
-    }, 3000)
+    }, 2000)
   }, [])
   return (
-    // loading
-    //   ?
-    //   <SyncLoader className='loader' color={'#ffcc00'} size={'2rem'} margin={4} />
-    //   :
+    loading
+      ?
+      <SyncLoader className='loader' color={'#ffcc00'} size={'2rem'} margin={4} />
+      :
     <div>
       <Navigation />
       {/* Home component */}
@@ -45,7 +46,10 @@ function App() {
       <div className="footer_container">
         <Footer />
       </div>
-      <div id='project' className='projects_container'>
+      <div>
+        <ProjectIntro />
+      </div>
+      <div className='projects_container'>
         {/* Projects component */}
         <Project
           title='Connect 4'

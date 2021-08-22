@@ -1,0 +1,26 @@
+.project-intro h1 {
+  display: inline;
+  background: linear-gradient(to right, var(--yellow), var(--purple));
+  background-clip: text;
+  font-size: 8vmax;
+  color: transparent;
+}
+
+.project-intro img {
+  opacity: 0.1;
+  position: absolute;
+  width: 29rem;
+  top: 0rem;
+  right: -6rem;
+}
+
+.project-intro {
+  overflow-x: hidden;
+  position: relative;
+  height: 100vh;
+}
+
+.project-intro p {
+  font-weight: 200;
+  font-size: 2rem;
+}

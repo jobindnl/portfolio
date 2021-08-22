@@ -1,5 +1,6 @@
 :root {
   --yellow :rgb(255, 204, 0); 
+  --purple : rgb(156, 90, 255);
   --dark-blue :rgb(29, 36, 40);
   --text-grey: rgb(203, 203, 203);
 }

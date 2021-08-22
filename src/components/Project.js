@@ -4,7 +4,7 @@ import './Project.css'
 
 function Project({ title, desc, img, link, sourceCode }) {
   return (
-    <Row name='project' className='mt-5'>
+    <Row className='mt-5'>
       <Col md={4} lg={4} className='d-inline-flex flex-column justify-content-center'>
         <Image src={img} fluid />
       </Col>

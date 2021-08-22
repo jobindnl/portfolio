@@ -1,5 +1,5 @@
 .navbar {
-  border-bottom: .1rem solid purple;
+  border-bottom: .1rem solid var(--yellow);
 }
 
 .navbar-nav a {

@@ -12,17 +12,18 @@
 
 .title-details {
   font-weight: 400;
+  color: var(--yellow);
 }
 
 .paragraph-details {
   font-weight: 300;
-  font-size: 1.1rem;
+  font-size: 1rem;
   color: var(--text-grey);
 }
 
-.button-link.btn {
-  border-radius: 1rem;
-  border: 0.09em solid white;
+.button-link.btn.btn-dark {
+  /* border-radius: .7rem; */
+  border: 0.09em solid rgb(143, 143, 143);
 }
 
 .additional_details {
