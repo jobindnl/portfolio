@@ -26,10 +26,10 @@ function App() {
     }, 2000)
   }, [])
   return (
-    loading
-      ?
-      <SyncLoader className='loader' color={'#ffcc00'} size={'2rem'} margin={4} />
-      :
+    // loading
+    //   ?
+    //   <SyncLoader className='loader' color={'#ffcc00'} size={'2rem'} margin={4} />
+    //   :
     <div>
       <Navigation />
       {/* Home component */}
@@ -56,7 +56,7 @@ function App() {
           img={connect4}
           sourceCode='https://github.com/jobindnl/connect4'
           link='https://jobindnl.github.io/connect4/'
-          desc='This was an application that built from the ground up
+          desc='This was an application built 
                 in a team environment. I took on the lead developer role and delegated tasks among
                 the rest of the team and took an active role in coding the functionality of the 
                 game. This project took a lot of planning and coordination, however we were able to 
@@ -70,24 +70,26 @@ function App() {
           link='https://jobindnl.github.io/MusicProduction/'
           desc='Made with the vision to show basic information
                 about music production and the different tools that come with the program called
-                Logic Pro X.'
+                Logic Pro X. The biggest challenge was completing the picture carousel on the 
+                instruments page, since it was done purely through Javascript. There are other 
+                libraries that could be used, but I wanted to push myself in programming and did
+                the entire functionality from scratch'
         />
         <Project
           title='Photo Wall'
           img={photoWall}
           sourceCode='https://github.com/jobindnl/photoWall'
           link='https://jobindnl.github.io/photoWall/'
-          desc='Uses an API to fetch photos from a third party website.'
+          desc='Consumes an API from photo website to display data. This project made me manage
+          big chunks of data. I had to organize and find the best way to parse the information from
+          a JSON object'
         />
         <Project
           title='Advice Generator'
           img={adviceGenerator}
           sourceCode='https://github.com/jobindnl/advice-api'
           link='https://jobindnl.github.io/advice-api/'
-          desc='This was an application that built from the ground up
-                in a team environment. I took on the lead developer role and delegated tasks among
-                the rest of the team and took an active role in coding the functionality of the 
-                game.'
+          desc='Website made to fetch a randomly generated advice from an external API'
         />
       </div>
       <div className="contact_container">
