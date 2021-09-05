@@ -7,9 +7,9 @@
 }
 
 .project-intro img {
-  opacity: 0.1;
+  opacity: 0.1; 
   position: absolute;
-  width: 29rem;
+  width: 15rem;
   top: 0rem;
   right: -6rem;
 }

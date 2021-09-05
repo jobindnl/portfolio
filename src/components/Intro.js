@@ -1,7 +1,7 @@
 import React from 'react'
 import projectIcon from '../assets/projectIcon.png'
 import { Image, Container, Row, Col } from 'react-bootstrap'
-import './ProjectIntro.css'
+import './Intro.css'
 
 function Intro({name, desc, imgSrc, downloadLink}) {
   return (
