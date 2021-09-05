@@ -2,7 +2,10 @@ import { useEffect, useState } from 'react'
 import { Switch, Route } from 'react-router-dom'
 import { Container, Row, Col } from 'react-bootstrap'
 import { SyncLoader } from 'react-spinners'
-import ProjectIntro from './components/ProjectIntro'
+import Intro from './components/Intro'
+import projectIcon from './assets/projectIcon.png'
+import resumeIcon from './assets/resumeIcon.png'
+import Resume from './components/Resume'
 import Profile from './components/Profile'
 import Navigation from './components/Navigation'
 import Description from './components/Description'
@@ -47,7 +50,11 @@ function App() {
         <Footer />
       </div>
       <div>
-        <ProjectIntro />
+        <Intro 
+          name='My Projects' 
+          desc='Here are some of the projects that I have worked on ' 
+          imgSrc={projectIcon}
+          />
       </div>
       <div className='projects_container'>
         {/* Projects component */}
@@ -91,6 +98,14 @@ function App() {
           link='https://jobindnl.github.io/advice-api/'
           desc='Website made to fetch a randomly generated advice from an external API'
         />
+      </div>
+      <div>
+        <Intro
+          name='Download my resume!'
+          desc='Click below to save a copy of my resume'
+          imgSrc={resumeIcon} 
+          downloadLink={<Resume/>}
+          />
       </div>
       <div className="contact_container">
         {/* Contact component */}
