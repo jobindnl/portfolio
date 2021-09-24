@@ -36,7 +36,7 @@ function App() {
     <div>
       <Navigation />
       {/* Home component */}
-      <Container>
+      <Container className='profile_container'>
         <Row className='app_container mt-5 align-items-center'>
           <Col xs={12} lg={6} className='d-inline-flex mt-5 justify-content-center'>
             <Profile />
@@ -101,7 +101,7 @@ function App() {
       </div>
       <div>
         <Intro
-          name='Download my resume!'
+          name='Download resume!'
           desc='Click below to save a copy of my resume'
           imgSrc={resumeIcon} 
           downloadLink={<Resume/>}

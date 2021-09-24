@@ -2,16 +2,17 @@
   display: inline;
   background: linear-gradient(to right, var(--yellow), var(--purple));
   background-clip: text;
+  word-wrap: break-word;
   font-size: 8vmax;
   color: transparent;
 }
 
 .project-intro img {
-  opacity: 0.5; 
+  opacity: 0.3; 
   position: absolute;
-  width: 15rem;
-  top: 0rem;
-  right: -6rem;
+  width: 15vmax;
+  top: 10rem;
+  right: 0rem;
 }
 
 .project-intro {

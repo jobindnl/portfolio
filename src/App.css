@@ -6,7 +6,11 @@
 }
 
 .app_container {
-  margin: 8rem auto 3rem auto;
+  margin: auto auto 3rem auto;
+}
+
+.profile_container {
+  margin-top: 8rem;
 }
 
 /* image cards on project section */
