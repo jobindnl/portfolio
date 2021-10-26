@@ -15,6 +15,7 @@ import Project from './components/Project'
 import music from './assets/music_website.jpg'
 import connect4 from './assets/connect4.jpg'
 import photoWall from './assets/photoWall.jpg'
+import gameStart from './assets/gameStart.jpg'
 import adviceGenerator from './assets/adviceGenerator.jpg'
 import './App.css'
 
@@ -58,6 +59,17 @@ function App() {
       </div>
       <div className='projects_container'>
         {/* Projects component */}
+        <Project
+          title='GameStart'
+          img={gameStart}
+          sourceCode='https://github.com/jobindnl/connect4'
+          link='https://github.com/jobindnl/mern-course-capstone-jobindnl'
+          desc='Capstone project built using React.js, HTML, CSS. Uses api from RAWG to display game
+                data. Allows users to sign up and post/edit/delete reviews. Has user profile page where 
+                more details about user is provided, including the reviews they posted, and games they
+                purchased. Has shopping cart functionality where users can add games to
+                shopping cart for checkout. Has a mock checkout page.'
+        />
         <Project
           title='Connect 4'
           img={connect4}
