@@ -62,8 +62,8 @@ function App() {
         <Project
           title='GameStart'
           img={gameStart}
-          sourceCode='https://github.com/jobindnl/connect4'
-          link='https://github.com/jobindnl/mern-course-capstone-jobindnl'
+          sourceCode='https://github.com/jobindnl/mern-course-capstone-jobindnl'
+          link='https://mern-gamestart.herokuapp.com'
           desc='Capstone project built using React.js, HTML, CSS. Uses api from RAWG to display game
                 data. Allows users to sign up and post/edit/delete reviews. Has user profile page where 
                 more details about user is provided, including the reviews they posted, and games they
